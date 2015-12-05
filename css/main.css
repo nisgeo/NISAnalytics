@@ -1,0 +1,76 @@
+#gapi
+{
+  background:#F66037;
+  padding:3px;
+  position:relative;
+  width: 228px;
+}
+.gapi
+{
+  background:#ffffff;
+  padding:4px 5px 80px 5px;
+}
+.gapi-yesterday,
+.gapi-online
+{
+  font-weight:bold;
+  text-align:center;
+  font-size:11px;
+  margin-bottom:5px;
+  padding-bottom:5px;
+  font-style:italic;
+  border-bottom:solid #B4B4B4 1px;
+}
+#gapi h4
+{
+  text-align:center;
+  padding:0px;
+  margin:0 0 3px 0;
+  font-size:14px;
+  font-style:normal;
+  color:#2F2F2F;
+}
+#gapi .gapi-yesterday .name
+{
+  padding-right:3px;
+  color:#8F8F8F;
+  font-size: 14px;
+  font-family: Arial;
+}
+#gapi .gapi-yesterday .value
+{
+  color:#6e6e6e;
+  font-family: Arial;
+  font-weight:bold;
+  font-size: 14px;
+}
+#gapi .gapi-online .name
+{
+  padding-right:3px;
+  color:#6e6e6e;
+}
+#gapi .gapi-online .value
+{
+  color:#F66037;
+}
+
+#gapi .gapi-online .value
+{
+  color:#F66037;
+}
+#gapi .gapi-button
+{
+  position:absolute;
+  bottom:3px;
+  left:3px;
+  width:228px;
+  height:74px;
+}
+#gapi .gapi-button a
+{
+  display:block;
+  width:228px;
+  height:74px;
+  background: url(../images/google_analytics.png) no-repeat;
+  margin-top: 1px;
+}
